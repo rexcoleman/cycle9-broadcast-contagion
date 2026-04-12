@@ -62,7 +62,7 @@ The supply chain security field currently assumes that detection coverage (SBOM 
 
 **Project:** Broadcast Contagion Phase Transitions in Software Supply Chain Networks: Detection Coverage as a Critical Control Parameter
 **Target venue:** arXiv (preprint) + internal pipeline publication
-**Design lock commit:** TO BE SET ON COMMIT
+**Design lock commit:** f0a9c0c030a333d976a0685b7c0e61e2582629ad
 **Design lock date:** 2026-04-12
 **Research type:** Computational
 **Domain:** AI supply chain security — broadcast contagion modeling

@@ -8,7 +8,7 @@
 
 ## Pre-Registration Lock
 
-**Lock commit:** TO BE SET ON COMMIT
+**Lock commit:** f0a9c0c030a333d976a0685b7c0e61e2582629ad
 **Lock date:** 2026-04-12
 
 > **Temporal gate (LL-74):** All hypotheses must be committed and locked before any experimental results are generated. Any experiment output with a git timestamp before the lock commit is invalid. Verify: `git log --oneline HYPOTHESIS_REGISTRY.md | tail -1` should predate all experiment outputs.
