@@ -1,0 +1,21 @@
+executor_envelope:
+  cycle: 9
+  project: cycle9-broadcast-contagion
+  research_type: computational
+  hypotheses_resolved: 4
+  hypotheses_supported: 2
+  hypotheses_refuted: 1
+  hypotheses_partial: 1
+  total_simulation_runs: 45900
+  primary_conditions: 6
+  ablation_conditions: 3
+  compute_platform: mac_mini_m4_pro
+  compute_time_seconds: 332
+  findings_claim_count: null  # filled after grep
+  quality_loop_score: null    # filled after quality_loop.sh
+  deviations_logged: 2
+  key_results:
+    pc_uniform_ba5k: "0.39 [0.38, 0.40]"
+    pc_targeted_ba5k: "0.19 [0.18, 0.20]"
+    hub_targeting_ratio: "2.04 [1.95, 2.15]"
+    mechanism_delta_pc: 0.15
