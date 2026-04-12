@@ -38,3 +38,39 @@ Gate passed. Stage 0-2 complete. Next action: formulate (Stage 3).
 | Cross-Engine Context filled | PASS |
 | EDA Readiness (computational) | PASS |
 | DB cross-check | PASS (count: 8) |
+
+### Quality Loop — 2026-04-12T17:13:25+00:00
+- PRE-FLIGHT FAILURE: infrastructure broken. Escalate to human.
+
+### Quality Loop — 2026-04-12T17:14:48+00:00
+- PRE-FLIGHT FAILURE: infrastructure broken. Escalate to human.
+
+### Quality Loop — 2026-04-12T17:24:15+00:00
+- Score: 6.9/10 | PASS: 49 | FAIL: 1 | WARN: 21
+- Action: FIX_REQUIRED
+- Structural: 0 | Fixable: 15
+
+### Quality Loop — 2026-04-12T17:24:28+00:00
+- Score: 6.9/10 | PASS: 49 | FAIL: 1 | WARN: 21
+- Action: FIX_REQUIRED
+- Structural: 0 | Fixable: 15
+
+### Quality Loop — 2026-04-12T17:29:07+00:00
+- Score: 7.5/10 | PASS: 55 | FAIL: 0 | WARN: 18
+- Action: AUTO_FIX
+- Structural: 0 | Fixable: 11
+
+### Quality Loop — 2026-04-12T17:32:36+00:00
+- Score: 7.5/10 | PASS: 55 | FAIL: 0 | WARN: 18
+- Action: AUTO_FIX
+- Structural: 0 | Fixable: 11
+
+### Quality Loop — 2026-04-12T17:41:34+00:00
+- Score: 8.4/10 | PASS: 61 | FAIL: 0 | WARN: 12
+- Action: PASS
+- Structural: 0 | Fixable: 5
+
+### Quality Loop — 2026-04-12T17:46:27+00:00
+- Score: 8.4/10 | PASS: 61 | FAIL: 0 | WARN: 12
+- Action: PASS
+- Structural: 0 | Fixable: 5

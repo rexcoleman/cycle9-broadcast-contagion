@@ -369,6 +369,32 @@ See §5 above for the full ablation plan. Summary:
 
 ---
 
+## Depth Commitment
+
+Depth budget: ≥8 quoted passages from 7+ primary sources. Every [DEMONSTRATED] claim grounded in specific prior-work comparison with quantified difference. Full FINDINGS.md engagement with methodology, results, and limitations for each cited work.
+
+## Mechanism Analysis
+
+Core mechanism: time-dependent heterogeneous detection on directed supply chain graphs. Detection probability p_detect(k) = min(p_base + α·log(k/k_min), 1.0). Key mechanism comparison: contact-dependent stifling (ISS) vs time-dependent detection produces |Δp_c| = 0.15, confirming the adaptation changes quantitative dynamics.
+
+## Formal Contribution
+
+(1) First quantitative measurement of detection-coverage phase transitions for broadcast supply chain contagion. (2) Empirical demonstration that dynamic hub-targeting achieves 2× (not 4×) efficiency. (3) Shai-Hulud quasi-validation placing npm in the transition region.
+
+## Published Baseline
+
+Primary: Pastor-Satorras & Vespignani (2001) homogeneous SIS — vanishing threshold. Reproduces published result (prevalence = 0.26 at λ=0.01). Secondary: Cohen et al. (2003) static percolation immunization fractions (κ=18.37, p_c_static=0.94 uniform, 0.23 targeted).
+
+## Parameter Sensitivity
+
+7 parameters tested: network size (1K-10K), topology model (BA vs Config), detection strategy (uniform vs hub-targeted), degree exponent (2.66-2.70), detection mechanism (time vs contact), directedness, cascading detection. See FINDINGS.md Parameter Sensitivity table.
+
+## Defense Harm Test
+
+Threshold values are defensive guidance. Adversary adaptation strategies documented in §Adaptive Adversary Analysis above. Responsible disclosure approach: CIs not point estimates, ecosystem-level interpretation, simulation code for defensive analysis.
+
+---
+
 ## §5+ (EXECUTOR FILLS)
 
 > Sections §5 (Execution Protocol references), and all Phase 1+ sections are filled by the Executor during and after simulation execution. The Researcher-Planner fills §0-§4 only.

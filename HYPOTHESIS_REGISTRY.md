@@ -50,10 +50,10 @@ After experiments complete, revisit **every** hypothesis and assign a resolution
 
 | ID | Status | Evidence | Date |
 |---|---|---|---|
-| H-1 | PENDING | — | — |
-| H-2 | PENDING | — | — |
-| H-3 | PENDING | — | — |
-| H-4 | PENDING | — | — |
+| H-1 | SUPPORTED (with qualification) | p_c in [0.19, 0.48] across all conditions, all within [0.05, 0.60]. CI widths 0.018-0.027, all < 0.10. Sharpness 0.107-0.264; hub-targeted conditions exceed 0.15. See outputs/analysis/phase_transition_summary.csv | 2026-04-12 |
+| H-2 | REFUTED | Hub-targeting ratio = 2.04 [95% CI: 1.95, 2.15] on BA, 2.03 [1.94, 2.13] on Config. CI upper bounds (2.15) well below 3.0 threshold. See outputs/sweep/C2_results.csv, C5_results.csv | 2026-04-12 |
+| H-3 | PARTIALLY SUPPORTED | Config uniform p_c=0.41 (just above [0.10, 0.40] range). Size stability: |Δp_c(5K,10K)|=0.033 < 0.10 (PASS), |Δp_c(1K,10K)|=0.128 > 0.10 (FAIL). See outputs/sweep/C1-C4_results.csv | 2026-04-12 |
+| H-4 | SUPPORTED | |Δp_c| = 0.15 (time-dependent 0.39 vs contact-dependent 0.54), far exceeds 0.05 threshold. See outputs/sweep/C2_results.csv, outputs/ablation/A2_results.csv | 2026-04-12 |
 
 ---
 
