@@ -1,0 +1,11 @@
+project: cycle9-broadcast-contagion
+quality_target: 8.0
+profile: research
+research_type: computational
+sharing_tier: 3
+gates:
+  - gate_minus_1: pending
+  - gate_0: pending
+templates:
+  - EXPERIMENTAL_DESIGN.md
+  - FINDINGS.md
