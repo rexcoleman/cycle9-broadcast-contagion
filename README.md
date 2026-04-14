@@ -1,6 +1,6 @@
-# Broadcast Contagion Phase Transitions in Software Supply Chain Networks
+# How Do Attacks Spread Between AI Agents? Phase Transitions in Supply Chain Contagion
 
-**Hub-targeted detection halves the critical coverage needed to contain supply chain contagion attacks: p_c = 0.19 vs 0.39 for uniform detection. But detection latency erodes half the theoretical advantage — the static percolation prediction overestimates the benefit by 2x.**
+**Hub-targeted detection halves the critical coverage needed to contain supply chain contagion attacks: p_c = 0.19 vs 0.39 for uniform detection. When prompt injection attacks go viral in multi-agent systems, monitoring the top 1% most-depended-on packages is nearly as effective as monitoring 39% of all packages. But detection latency erodes half the theoretical advantage — the static percolation prediction overestimates the benefit by 2x.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-green.svg)](https://www.python.org/downloads/)
