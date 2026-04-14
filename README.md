@@ -64,6 +64,7 @@ Full methodology in [EXPERIMENTAL_DESIGN.md](EXPERIMENTAL_DESIGN.md). All result
 
 ## Related Work
 
+- Blog post: [How Do Attacks Spread Between AI Agents?](https://rexcoleman.dev/posts/supply-chain-contagion-threshold/) — Accessible summary of this research
 - [ai-supply-chain-scanner](https://github.com/rexcoleman/ai-supply-chain-scanner) — Rule-based scanner for ML supply chain risks
 - [controllability-bound](https://github.com/rexcoleman/controllability-bound) — Defense difficulty decomposition framework
 
