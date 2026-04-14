@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: Coleman
+    given-names: Rex
+title: "Broadcast Contagion Phase Transitions in Software Supply Chain Networks"
+date-released: 2026-04-12
+url: "https://github.com/rexcoleman/cycle9-broadcast-contagion"
+repository-code: "https://github.com/rexcoleman/cycle9-broadcast-contagion"
+license: MIT
+keywords:
+  - supply-chain-security
+  - contagion
+  - phase-transition
+  - network-science
+  - monte-carlo
