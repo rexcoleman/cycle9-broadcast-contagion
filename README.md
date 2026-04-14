@@ -19,6 +19,15 @@
 
 All results are conditional on hub-originated attacks (top-1% packages by dependency count) on Barabási-Albert scale-free networks.
 
+## Prior Work Comparison
+
+| Prior Work | Year | What They Did | What We Do Differently |
+|---|---|---|---|
+| Pastor-Satorras & Vespignani | 2001 | Proved vanishing SIS epidemic threshold on scale-free networks with homogeneous recovery | We add heterogeneous time-dependent detection and show it *restores* a finite threshold at p_c ~ 0.39 |
+| Moreno, Nekovee & Pacheco | 2004 | Mean-field ISS rumor spreading with contact-dependent stifling on undirected graphs | We adapt stifling from contact-dependent to time-dependent on directed graphs — shifts p_c by 0.15 (28% reduction) |
+| Cohen, Havlin & ben-Avraham | 2003 | Targeted immunization via acquaintance strategy, static percolation | We test whether static targeting advantage holds under dynamic broadcast with detection latency — it does not fully hold (2.04x vs ~4.3x static) |
+| Yang et al. | 2015 | Showed degree-correlated recovery restores large epidemic thresholds | We parameterize against real supply chain detection rates and measure WHERE the restored threshold falls: p_c ~ 0.19-0.41 |
+
 ## The Finding
 
 We adapted the ISS (Information Spreading and Stifling) model from social network epidemiology to software supply chain contagion. The key insight: supply chain attacks spread like broadcast contagion (one compromised package infects all dependents simultaneously), not like contact-dependent disease spread.
